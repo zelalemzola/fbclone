@@ -565,7 +565,7 @@ nav
     position: absolute;
     top: 20px;
     right:20px;
-    background: #ccc;
+    background: rgb(72, 71, 71);
     width:45px;
     border-radius: 15px;
     padding: 2px 3px;
@@ -585,6 +585,6 @@ nav
 #dark-btn.dark-btn-on
 {
     padding-left: 23px;
-    background: #0a0a0a;
+    background: #444242;
 
 }
