@@ -8,7 +8,7 @@
 :root{
     --body-color:#efefef;
     --nav-color:#1876f2;
-    --bg-color:#fff;
+    --bg-color:#ccc;
 
     
 }
@@ -125,11 +125,11 @@ nav
     
 }
 .right-sidebar
-{
+{   
     background: white;
     padding: 20px;
     border-radius: 4px;
-    color:var(--bg-color);
+   
     flex-basis: 25%;
     position:sticky;
     top:70px;
@@ -186,14 +186,16 @@ nav
     justify-content: space-between;
     margin-bottom: 18px;
 }
+
 .sidebar-title h4
 {
+    
     font-weight: 600;
     font-size: 16px;
 
 }
 .right-sidebar h4
-{
+{   
     font-weight: 600;
     font-size: 16px;
 }
@@ -503,7 +505,7 @@ nav
     position: absolute;
     width: 90%;
     max-width:350px;
-    background: #fff;
+    background: var(--bg-color);
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
     border-radius: 4px;
     overflow: hidden;
@@ -583,6 +585,6 @@ nav
 #dark-btn.dark-btn-on
 {
     padding-left: 23px;
-    background: #000;
+    background: #0a0a0a;
 
 }

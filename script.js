@@ -8,3 +8,10 @@ function settingsMenuToggle()
     darkbtn.classList.toggle("dark-btn-on")
     document.body.classList.toggle("dark-theme")
  }
+
+ localStorage.setItem("theme","light");
+ localStorage.getItem("theme");
+ if(localStorage.getItem("theme") == "light")
+ {
+    
+ }
